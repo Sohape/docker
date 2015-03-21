@@ -1,6 +1,5 @@
-FROM debian:wheezy
-
-MAINTAINER Jo Shields <jo.shields@xamarin.com>
+FROM resin/rpi-raspbian
+MAINTAINER Sohape
 
 #based on dockerfile by Michael Friis <friism@gmail.com>
 
