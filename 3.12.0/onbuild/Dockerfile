@@ -1,6 +1,5 @@
-FROM mono:3.12.0
-
-MAINTAINER Jo Shields <jo.shields@xamarin.com>
+FROM sohapetrustpilot/rpi-mono:3.12.0
+MAINTAINER Sohape
 
 RUN mkdir -p /usr/src/app/source /usr/src/app/build
 WORKDIR /usr/src/app/source
